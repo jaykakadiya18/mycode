@@ -1,3 +1,6 @@
+#Doc tutorial link of motor
+#https://motor.readthedocs.io/en/stable/tutorial-asyncio.html
+
 import motor.motor_asyncio
 
 MONGO_DETAILS = "" #server
@@ -16,6 +19,7 @@ loop = client.get_io_loop()
 loop.run_until_complete(do_count()) #for mongodb motor
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------#
+#https://www.w3schools.com/python/python_mongodb_getstarted.asp
 
 import pymongo
 
