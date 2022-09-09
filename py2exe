@@ -1,2 +1,9 @@
 pip install pyinstaller
+
+
+#Conv python into exe
 pyinstaller --onefile 'filename.py'
+
+
+#With Icon
+pyinstaller.exe --onefile --icon=app.ico app.py
